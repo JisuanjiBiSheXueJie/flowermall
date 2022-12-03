@@ -1,0 +1,64 @@
+.cover-cards {
+    position: relative;
+    z-index: 5;
+    width: 688px;
+
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 20px rgba(0,0,0,.1);
+
+}
+.cover-cards .hd{
+    display: flex;
+    width: 100%;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.cover-cards .hd .cover-tab {
+
+    width: 344px;
+    height: 80px;
+    font: 26px/80px -apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+    color: #333;
+    text-align: center;
+    background: #f1f1f1;
+}
+.cover-cards .hd .cover-tab.active {
+    background: #fff;
+}
+
+.cover-cards .bd{
+    display: flex;
+    padding:22px 8px;
+    flex-wrap: wrap;
+}
+.cover-cards .bd .item{
+
+    position: relative;
+    width: 33.3%;
+    min-height: 116px;
+    margin-bottom: 34px;
+}
+.cover-cards .bd .item .title{
+    text-align: center;
+    font: 20px/24px -apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+    font-weight: 600;
+    color: #333;
+}
+.cover-cards .bd .item .number{
+    font: 700 44px/74px DIN Alternate,din_alternate_bold,-apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+    text-align: center;
+    color:#ffa352;
+}
+.cover-cards .bd .item .add{
+    font: 18px/1 -apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+    color: #999;
+    text-align: center;
+}
+.cover-cards .bd .item .add .dig{
+    font: 18px/1 -apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+    color: #ffa352;
+    text-align: center;
+
+}

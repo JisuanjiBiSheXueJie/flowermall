@@ -1,0 +1,204 @@
+/* CSS Document */
+/*css reset*/
+body,h1,h2,h3,p,li,ul,img{padding:0px;margin:0px;}
+img{border:none;}
+ul,li{list-style-type:none;}
+a{text-decoration:none;}
+
+
+.carousel{width:100%;min-height:364px;text-align:center;overflow:hidden;z-index:2}
+.carousel .car-big-picture img{display:none;margin:auto;width:100%;height:505px;}
+.carousel .car_click{width:1010px;height:65px;background:url(../images/background1.png);position:absolute;z-index:2;top:400px;left:22%;}
+.carousel .car_click .car_c_title{width:265px;height:55px;margin-top:5px;float:left;overflow:hidden;}
+.carousel .car_click .car_c_title p{font-size:22px;color:white;margin:12px 5px;width:240px;height:48px;overflow:hidden;}
+.carousel .car_click .car_c_smallpic{width:740px;height:55px;margin-top:5px;float:left;}
+.carousel .car_click .car_c_smallpic input{float:left;}
+.carousel .car_click .car_c_smallpic img{cursor:pointer;float:left;margin:0 5px;width:76px;height:47px; border:solid 2px #fff;}
+.carousel .car_click .car_c_smallpic .car_c_inpt1{width:34px;height:50px;border:0px;background:url(../images/arrow1.png);cursor:pointer;margin-right:5px;}
+.carousel .car_click .car_c_smallpic .car_c_inpt2{width:34px;height:50px;border:0px;background:url(../images/arrow2.png);cursor:pointer;margin-left:5px;}
+
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: 700px;
+	float: left;
+	border: 0;
+	width: 100%;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #08acee;
+}
+
+button {
+	outline: 0;
+}
+
+img {
+	border: 0;
+}
+
+button,input,optgroup,select,textarea {
+	margin: 0;
+	font: inherit;
+	color: inherit;
+	outline: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #666;
+}
+
+
+.clearfix::after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+}
+
+/* 必要布局样式css */
+.banner-content{
+	width: 1260px;
+	margin: 0 auto;
+}
+
+.banner-content-box{
+	position:relative;
+}
+
+.banner-nav-left ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 235px;
+	height: 410px;
+	padding: 10px 25px 20px 20px;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#80000000,endColorstr=#80000000)";
+	filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#80000000, endColorstr=#80000000)";
+	z-index: 5;
+	overflow:hidden;
+
+}
+
+.banner-nav-left ul li{
+	padding: 15px 0 10px;
+	color: #fff;
+	border-bottom: #3f3a32 solid 1px;
+}
+.banner-nav-left ul li h3{
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.banner-nav-left ul li a{
+	display: inline-block;
+	margin-right: 10px;
+	color: #cdcdcd;
+	font-size: 14px;
+}
+
+.banner-nav-left ul li.bor-none {
+	border-bottom: 0;
+}
+
+.prev{
+	position: absolute;
+	left: 21%;
+	top: 51%;
+	margin-top: -25px;
+	display: block;
+	width: 32px;
+	height: 40px;
+	background: url(../images/pre-btn.png) no-repeat #0b0b0b;
+	filter: alpha(opacity=50);
+	opacity: 0.2;
+}
+
+.next{
+	position: absolute;
+	right: 1%;
+	top: 51%;
+	margin-top: -25px;
+	display: block;
+	width: 32px;
+	height: 40px;
+	background: url(../images/next-btn.png)  no-repeat #0b0b0b;
+	filter: alpha(opacity=50);
+	opacity: 0.2;
+}
+
+.banner-slide{
+	position:relative;
+}
+
+.banner-slide-circle ul li{
+	float: left;
+	margin-right: 10px;
+	height: 10px;
+	width: 10px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.banner-slide-circle{
+	position: absolute;
+	right: 180px;
+	bottom: 55px;
+	z-index:10002;
+}
+
+.banner-slide-circle ul .on{
+	cursor: pointer;
+	height: 10px;
+	width: 20px;
+	background: #4d4842;
+	border-radius: 5px;
+}
+.banner-slide-body ul{
+	margin-left:236px;
+	width: 960px;
+	height: 450px;
+	background-color: #0c0c0c;
+}
+.banner-slide-body ul li a img{
+	width: 960px;
+	height: 430px;
+	display:block;
+	border:none;
+}

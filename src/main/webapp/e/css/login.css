@@ -1,0 +1,159 @@
+/* 登录页 */
+
+.login-hd{
+    width: 1126px;
+    margin: 0 auto;
+}
+
+.login-hd .text {
+    display: block;
+    width:100%;
+    height: 76px;
+    line-height:70px;
+    font-size:33px;
+    font-weight: 600;
+    color:#10aa9c;
+}
+
+
+.login-con {
+    height: 680px;
+    background-color: #10aa9c;
+    position: relative;
+}
+
+
+.login-con .login-form{
+    width: 368px;
+    height: 428px;
+    border: 1px solid #c6c6c5;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1238;
+
+}
+
+.login-con .login-form .title {
+    height: 60px;
+    width: 308px;
+    margin: 10px auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.login-con .login-form .title h1 {
+    font-size: 24px;
+    color: #a8a8a8;
+    float: left;
+    font-weight: bold;
+    margin-left: 44px;
+}
+
+.login-con .login-form .title  a {
+    width: 100px;
+
+    display: inline-block;
+    font-size: 16px;
+    color: #5fb42a;
+    text-indent: 26px;
+
+    margin: 20px 0 0 36px
+}
+
+
+.login-btn{
+    border: none;
+    padding-left: 0;
+    width: 310px;
+    height: 48px;
+    background:#10aa9c;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.login-con .login-form .bd {
+    width: 308px;
+    height: 250px;
+    margin: 20px auto;
+    position: relative;
+}
+.login-form .bd  .table-row{
+
+    margin-bottom:30px;
+    position: relative;
+
+}
+
+
+.table-row .smart-input{
+    width: 298px;
+    height: 46px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 20px;
+    padding-left: 10px;
+    line-height: 46px;
+}
+
+
+.el-carousel__item{
+    width: 100%;
+
+}
+.el-carousel__item a{
+    width: 100%;
+    display: inline-block;
+}
+.el-carousel__item .image {
+    width: 100%;
+    min-height: 700px;
+
+}
+
+.more_input {
+    position: absolute;
+    left: 0;
+    top: 130px;
+    width: 100%
+}
+
+.more_input input {
+    float: left;
+    margin-top: 2px;
+}
+
+.more_input label {
+    float: left;
+    margin-left: 10px;
+}
+
+.more_input a {
+    float: right;
+    color: #666
+}
+
+.more_input a:hover {
+    color: #ff8800
+}
+
+.input_submit {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 180px;
+    background-color: #47aa34;
+    color: #fff;
+    font-size: 22px;
+    border: 0px;
+    font-family: 'Microsoft Yahei';
+    cursor: pointer;
+}
